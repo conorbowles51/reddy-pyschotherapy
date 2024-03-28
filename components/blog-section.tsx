@@ -58,7 +58,7 @@ const BlogSection = () => {
         </div>
 
         <Carousel
-          className="max-w-[400px]"
+          className="max-w-[200px] md:max-w-[400px]"
         >
           <CarouselContent>
             {blogPosts.map((item, index) => (

@@ -17,8 +17,8 @@ const BlogCard = ({
         <Image 
           src={src}
           alt={title}
-          width={300}
-          height={300}
+          width={200}
+          height={200}
         />
 
         <p className="text-2xl">{date}</p>
