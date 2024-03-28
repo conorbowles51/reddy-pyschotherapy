@@ -15,16 +15,16 @@ const BlogSection = () => {
       blurb: `Anxiety is one of the most common
               mental health issues in our modern
               hustle and bustle world, and if you
-              don’t take care of...`,
+              don\'t take care of...`,
       date: "14/4/24",
       src: "/assets/test.svg"
     },
     {
-      title: "Your child is irritated and retreating from the world ?",
+      title: "Your child is irritated and retreating from the world?",
       blurb: `Anxiety is one of the most common
               mental health issues in our modern
               hustle and bustle world, and if you
-              don't take care of...`,
+              don\'t take care of...`,
       date: "02/4/24",
       src: "/assets/Sitting_Person.svg"
     },
@@ -33,7 +33,7 @@ const BlogSection = () => {
       blurb: `Anxiety is one of the most common
               mental health issues in our modern
               hustle and bustle world, and if you
-              don't take care of...`,
+              don\'t take care of...`,
       date: "29/3/24",
       src: "/assets/25.svg"
     },
