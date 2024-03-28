@@ -20,7 +20,7 @@ const LandingSection = () => {
           </h1>
 
           <p className="text-[#2B3349] mt-10 font-light text-2xl text-center lg:text-left">
-            Welcome to Eva's Psychotherapy, <br />
+            Welcome to Eva&apos;s Psychotherapy, <br />
             where accessible and affordable <br />
             care meets attentive listening. <br />
           </p>
