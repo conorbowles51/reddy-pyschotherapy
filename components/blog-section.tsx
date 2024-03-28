@@ -44,7 +44,7 @@ const BlogSection = () => {
       <div className="flex flex-col xl:flex-row items-center justify-between font-heading text-[#2B3349]">
         <div className="w-[1200px] xl:mr-[70px]">
           <h2 className="text-4xl md:text-5xl text-center xl:text-left">
-            Don't know <span className="text-[#D4491D]">where</span> to<br /> start?
+            Don&apos;t know <span className="text-[#D4491D]">where</span> to<br /> start?
           </h2>
           <p className="mt-10 md:text-2xl font-thin text-center xl:text-left mb-[50px] xl:mb-0">
             We know that the complex<br />
