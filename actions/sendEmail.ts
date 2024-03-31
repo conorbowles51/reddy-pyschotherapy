@@ -5,9 +5,15 @@ import { Resend } from "resend";
 const resend = new Resend(process.env.RESEND_API_KEY);
 
 export const sendEmail = async (formData: FormData) => {
-  console.log(formData.get("name"));
 
-  const message = formData.get("message")?.toString();
+  const senderEmail = formData.get("email");
+  const message = formData.get("message");
+
+  if(!message || typeof message !== "string"){
+    return {
+      error: "Invalid message"
+    }
+  }
 
   if(message){
     resend.emails.send({
