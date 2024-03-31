@@ -12,7 +12,7 @@ export const sendEmail = async (formData: FormData) => {
   if(message){
     resend.emails.send({
       from: 'onboarding@resend.dev',
-      to: 'jliudoyle@gmail.com',
+      to: 'conorbowles2000@gmail.com',
       subject: 'Message from www.reddypyschotherapy.ie',
       text: message
     });
