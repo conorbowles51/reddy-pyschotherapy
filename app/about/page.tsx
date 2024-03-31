@@ -188,6 +188,12 @@ export default function About() {
               <ScrollBar />
           </ScrollArea>
           
+          <h3 className="mt-[75px] text-4xl font-heading font-semibold text-[#D4491D]">Reach out...</h3>
+            <p  className="mt-[10px] ml-[40px] text-2xl font-heading text-[#2B3349]">Send me an email and we can chat<br />about how I can help you</p>
+
+            <Link href="/contact" className="flex justify-center items-center gap-3 mt-5 ml-[100px] p-3 bg-[#D4491D] border-[#D4491D] w-[200px] text-center text-white font-heading text-2xl hover:text-[#D4491D] hover:cursor-pointer border hover:bg-white transition">
+              Contact <ArrowRight />
+            </Link>
         </div>
       </main>
     );
