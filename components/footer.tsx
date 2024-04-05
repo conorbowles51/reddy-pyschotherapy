@@ -6,7 +6,7 @@ const Footer = () => {
     <footer className="w-full mt-[100px] xl:mt-[200px] px-[20px] xl:px-[300px] py-[60px] bg-[#2B3349]">
       <div className="flex flex-col gap-8 items-center sm:gap-0 sm:flex-row justify-between underline text-[#E67644]">
         <div className="flex flex-col gap-7 items-center sm:items-start">
-          <p className="flex"> <MapPin className="mr-2"/>3 Sexton St, Prior's-Land, Limerick, V94 Y521</p>
+          <p className="flex"> <MapPin className="mr-2"/>3 Sexton St, Prior&apos;s-Land, Limerick, V94 Y521</p>
           <p className="flex"> <Mail className="mr-2"/>reddypsychotherapy@proton.me</p>
           <p className="flex"> <Phone className="mr-2"/>086 825 5834</p>
         </div>
