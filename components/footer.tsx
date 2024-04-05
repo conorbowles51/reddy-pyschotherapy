@@ -33,7 +33,7 @@ const Footer = () => {
               You have rights over your data, including access and deletion requests.
               <br /><br />
               <span className="text-[#E67644]">Contact Us: </span>
-              For questions or concerns about our privacy practices, please contact us at [insert contact information].
+              For questions or concerns about our privacy practices, please contact us at .
               <br /><br />
               <span className="text-[#E67644]">Changes to This Privacy Policy: </span>
               We may update our Privacy Policy and recommend reviewing it periodically.
