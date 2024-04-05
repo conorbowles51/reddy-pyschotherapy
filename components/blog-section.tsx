@@ -1,3 +1,4 @@
+import Link from "next/link";
 import BlogCard from "./blog-card";
 
 import {
@@ -7,6 +8,7 @@ import {
   CarouselNext,
   CarouselPrevious,
 } from "@/components/ui/carousel"
+import { ArrowRight, BookOpen } from "lucide-react";
 
 const BlogSection = () => {
   const blogPosts = [
@@ -42,7 +44,7 @@ const BlogSection = () => {
   return ( 
     <section className="mt-[100px] xl:mt-[200px] mx-[50px] scroll-my-24" id="advice">
       <div className="flex flex-col xl:flex-row items-center justify-between font-heading text-[#2B3349]">
-        <div className="w-[1200px] xl:mr-[70px]">
+        <div className="">
           <h2 className="text-4xl md:text-5xl text-center xl:text-left">
             Don&apos;t know <span className="text-[#D4491D]">where</span> to<br /> start?
           </h2>
@@ -57,36 +59,15 @@ const BlogSection = () => {
           </p>
         </div>
 
-        <Carousel
-          className="max-w-[200px] md:max-w-[400px]"
-        >
-          <CarouselContent>
-            {blogPosts.map((item, index) => (
-              <CarouselItem key={index}>
-                <BlogCard 
-                  title={item.title}
-                  blurb={item.blurb}
-                  date={item.date}
-                  src={item.src}
-                />
-              </CarouselItem>
-            ))}
-          </CarouselContent>
-          <CarouselPrevious className="bg-[#D4491D] text-white"/>
-          <CarouselNext className="bg-[#D4491D] text-white"/>
-        </Carousel>
-
-        {/* <div className="flex gap-[75px]">
-          {blogPosts.map((item, index) => (
-            <BlogCard 
-              key={index}
-              title={item.title}
-              blurb={item.blurb}
-              date={item.date}
-              src={item.src}
-            />
-          ))}
-        </div> */}
+        <div>
+          <h3 className="text-4xl text-[#2B3349] font-heading font-semibold flex items-center">
+            <BookOpen className="mr-2" />
+            Visit my blog...
+          </h3>
+          <Link href="/blog" className="ml-5 flex justify-center items-center gap-3 mt-5 p-3 bg-[#D4491D] border-[#D4491D] w-[200px] text-center text-white font-heading text-2xl hover:text-[#D4491D] hover:cursor-pointer border hover:bg-white transition">
+            Blog <ArrowRight />
+          </Link>
+        </div>
       </div>
     </section>
   );

@@ -55,7 +55,7 @@ const Navbar = () => {
             />
           </Link>
 
-          <Link href="instagram.com">
+          <Link href="https://www.instagram.com/reddypsychotherapy/">
             <Image 
               width={50}
               height={50}
