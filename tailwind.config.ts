@@ -19,7 +19,7 @@ const config = {
     },
     fontFamily: {
       'link': ['lato'],
-      'heading': ['Kollektif, sans-serif']
+      'heading': ['Poppins, sans-serif']
     },
     extend: {
       colors: {

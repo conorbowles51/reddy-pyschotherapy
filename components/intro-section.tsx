@@ -33,7 +33,7 @@ const IntroSection = () => {
           working together.
         </p>
 
-        <Link href="/about" className="mt-5 p-5 bg-[#D4491D] border-[#D4491D] w-[300px] text-center text-white font-heading text-2xl rounded-sm hover:text-[#D4491D] hover:cursor-pointer border hover:bg-white transition">
+        <Link href="/about" className="mt-5 p-3 bg-[#D4491D] border-[#D4491D] w-[300px] text-center text-white font-heading  rounded-sm hover:text-[#D4491D] hover:cursor-pointer border hover:bg-white transition">
           Learn more...
         </Link>
       </div>

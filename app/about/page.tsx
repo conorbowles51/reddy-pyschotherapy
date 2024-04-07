@@ -8,8 +8,8 @@ import { ScrollArea, ScrollBar } from "@/components/ui/scroll-area"
 export default function About() {
     return (
       <main className="mt-[50px] md:mt-[100px] relative">
-        <div className="py-6 px-10 bg-[#f7b6aa] w-fit rounded-r-3xl">
-          <h1 className="text-4xl md:text-6xl text-[#D4491D] font-heading">
+        <div className="mt-3 py-4 px-[50px] md:px-[100px] bg-[#f7b6aa] w-fit rounded-r-3xl">
+          <h1 className="text-3xl text-[#D4491D] font-heading tracking-[10px]">
             About Eva
           </h1> 
         </div>

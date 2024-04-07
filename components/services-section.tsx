@@ -42,7 +42,7 @@ const ServicesSection = () => {
         />
       </div>
 
-      <div className="mt-[100px] flex gap-[25px] xl:gap-[100px] flex-wrap justify-center text-center">
+      <div className="mt-[100px] flex gap-[35px] xl:gap-x-[250px] flex-wrap justify-center text-center">
         {services.map((item, index) => (
           <ServiceCard 
             key={index}
@@ -70,11 +70,11 @@ const ServiceCard = ({
       <Image 
         src={path}
         alt={name}
-        width={100}
-        height={100}
+        width={150}
+        height={150}
       />
       <h4 className="text-2xl text-[#D4491D]">{name}</h4>
-      <p className="text-[#2B3349] max-w-[150px]">{desc}</p>
+      <p className="text-[#2B3349] w-[220px]">{desc}</p>
     </div>
   )
 }

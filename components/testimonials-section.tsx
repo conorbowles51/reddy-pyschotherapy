@@ -75,7 +75,7 @@ const TestimonialsSection = () => {
 
   return ( 
     <section className="mt-[175px] flex flex-col items-center justify-center"> 
-      <h1 className="font-heading text-center text-5xl lg:text-6xl text-[#2B3349]">What my <span className=" italic text-[#D4491D]">clients</span> say</h1>
+      <h1 className="font-heading font-bold text-center text-5xl lg:text-6xl text-[#2B3349]">What my <span className=" italic text-[#D4491D]">clients</span> say</h1>
 
       <div className="flex items-center justify-center mt-[70px] md:mt-[170px] w-[250px] sm:w-[400px] lg:w-[800px] xl:w-[1200px]"> 
         <Carousel className="w-full relative">

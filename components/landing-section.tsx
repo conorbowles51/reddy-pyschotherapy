@@ -15,7 +15,7 @@ const LandingSection = () => {
         </div>
 
         <div>
-          <h1 className="font-heading text-4xl sm:text-7xl text-[#2B3349] text-center">
+          <h1 className="font-heading font-semibold text-4xl sm:text-7xl text-[#2B3349] text-center">
             <span className="text-[#D4491D]">Limerick</span> based<br/>psychotherapy
           </h1>
 
@@ -27,8 +27,8 @@ const LandingSection = () => {
         </div>
       </div>
 
-      <div className=" flex flex-col mt-[50px] lg:border-[2px] border-[#D4491D] w-full p-[50px] items-center text-center justify-center rounded-sm">
-        <h3 className="text-[#D4491D] text-5xl font-heading mb-10">Reach out today</h3>
+      <div className=" flex flex-col mt-[50px] lg:border-[4px] border-[#D4491D] w-full p-[50px] items-center text-center justify-center rounded-sm">
+        <h3 className="text-[#D4491D] text-5xl font-bold font-heading mb-10">Reach out today</h3>
 
         <div className="border-[#D4491D] items-center justify-center border-[2px] p-3 rounded-sm hover:bg-[#D4491D] hover:cursor-poi group transition">
           <p className="text-[#D4491D] text-2xl font-heading group-hover:text-white">Contact me</p>

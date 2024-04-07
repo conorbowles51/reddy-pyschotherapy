@@ -19,7 +19,7 @@ export default function ContactPage() {
           />
         </div>
 
-        <div className="mt-3 py-6 px-[50px] md:px-[100px] bg-[#f7b6aa] w-fit rounded-r-3xl">
+        <div className="mt-3 py-4 px-[50px] md:px-[100px] bg-[#f7b6aa] w-fit rounded-r-3xl">
           <h1 className="text-3xl text-[#D4491D] font-heading tracking-[10px]">
             CONTACT ME
           </h1> 
@@ -33,13 +33,13 @@ export default function ContactPage() {
             action={sendEmail}
           >
             <label htmlFor="name">Full name</label>
-            <input required maxLength={100} id='name' name='name' type='text' className='w-full md:w-[50%] p-4 h-14  border border-black/30'/>
+            <input required maxLength={100} id='name' name='name' type='text' className='w-full md:w-[50%] p-4 h-9  border border-black/30'/>
 
             <label htmlFor="phone">Phone Number</label>
-            <input required maxLength={100} id='phone' name='phone' type='text' className='w-full md:w-[50%] p-4 h-14  border border-black/30'/>
+            <input required maxLength={100} id='phone' name='phone' type='text' className='w-full md:w-[50%] p-4 h-9  border border-black/30'/>
 
             <label htmlFor="email">Email</label>
-            <input required maxLength={100} id='email' name='email' type='email'  className='w-full md:w-[75%] p-4 h-14 border border-black/30'/>
+            <input required maxLength={100} id='email' name='email' type='email'  className='w-full md:w-[75%] p-4 h-9 border border-black/30'/>
 
             <label htmlFor="message">Message</label>
             <textarea required maxLength={2000} id='message' name='message' className='h-52  border border-black/30 p-4'/>

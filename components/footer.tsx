@@ -3,7 +3,7 @@ import { Popover, PopoverContent, PopoverTrigger } from "./ui/popover";
 
 const Footer = () => {
   return ( 
-    <footer className="w-full mt-[100px] xl:mt-[200px] px-[20px] xl:px-[300px] py-[60px] bg-[#2B3349]">
+    <footer className="w-full mt-[100px] xl:mt-[200px] px-[20px] xl:px-[300px] bg-[#2B3349] py-[60px] relative">
       <div className="flex flex-col gap-8 items-center sm:gap-0 sm:flex-row justify-between underline text-[#E67644]">
         <div className="flex flex-col gap-7 items-center sm:items-start">
           <p className="flex"> <MapPin className="mr-2"/>3 Sexton St, Prior&apos;s-Land, Limerick, V94 Y521</p>

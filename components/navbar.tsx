@@ -18,7 +18,7 @@ import MobileNavbar from "./mobile-navbar"
 const Navbar = () => {
   return (
     <nav className="">
-      <div className="hidden md:flex justify-between items-center pt-2 px-6 font-link underline">
+      <div className="hidden md:flex justify-between items-center pt-2 px-6 font-link font-bold text-[#2B3349] underline">
         <Link href="/">
           <Image 
             width={200}
@@ -28,7 +28,7 @@ const Navbar = () => {
           />
         </Link>
 
-        <div className="flex gap-[100px]">
+        <div className="flex gap-[40px] lg:gap-[100px]">
           <Link href="/about">About</Link>
           <Link href="#advice">Advice</Link>
         </div>
@@ -40,7 +40,7 @@ const Navbar = () => {
           src="/assets/Logo_text.svg"
         />
 
-        <div className="flex gap-[100px]">
+        <div className="flex gap-[40px] lg:gap-[100px]">
           <Link href="/#services">Services</Link>
           <Link href="/contact">Contact us</Link>
         </div>

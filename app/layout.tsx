@@ -5,8 +5,8 @@ import Footer from "@/components/footer";
 
 
 export const metadata: Metadata = {
-  title: "Reddy Psychology",
-  description: "Reddy Psychology pyschotherapy company website",
+  title: "Reddy Psychotherapy",
+  description: "Limerick based psychotherapy",
 };
 
 export default function RootLayout({
@@ -15,7 +15,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" suppressHydrationWarning>
       <body className="h-full bg-[#E6C8BB] scroll-smooth">
         <div className="mt-3 mx-3 md:mx-[20px] lg:mx-[20px] xl:mx-[250px]">
           <Navbar />
