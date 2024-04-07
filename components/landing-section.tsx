@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { Button } from "./ui/button";
+import Link from "next/link";
 
 const LandingSection = () => {
   return ( 
@@ -30,9 +31,9 @@ const LandingSection = () => {
       <div className=" flex flex-col mt-[50px] lg:border-[4px] border-[#D4491D] w-full p-[50px] items-center text-center justify-center rounded-sm">
         <h3 className="text-[#D4491D] text-5xl font-bold font-heading mb-10">Reach out today</h3>
 
-        <div className="border-[#D4491D] items-center justify-center border-[2px] p-3 rounded-sm hover:bg-[#D4491D] hover:cursor-poi group transition">
+        <Link href="/contact" className="border-[#D4491D] items-center justify-center border-[2px] p-3 rounded-sm hover:bg-[#D4491D] hover:cursor-poi group transition">
           <p className="text-[#D4491D] text-2xl font-heading group-hover:text-white">Contact me</p>
-        </div>
+        </Link>
       </div>
     </section>
   );
