@@ -14,12 +14,14 @@ import { Button } from "./ui/button"
 import { Menu } from 'lucide-react'
 import MobileNavbar from "./mobile-navbar"
 
+import { Instagram, Linkedin } from "lucide-react"
+
 
 const Navbar = () => {
   return (
     <nav className="">
       <div className="hidden md:flex justify-between items-center pt-2 px-6 font-link font-bold text-[#2B3349] underline">
-        <Link href="/">
+        <Link href="/" className="">
           <Image 
             width={200}
             height={160}
@@ -28,40 +30,32 @@ const Navbar = () => {
           />
         </Link>
 
-        <div className="flex gap-[40px] lg:gap-[100px]">
-          <Link href="/about">About</Link>
-          <Link href="#advice">Advice</Link>
-        </div>
+          <Link href="/about" className="mx-4">About</Link>
+          <Link href="#advice" className="mx-4">Advice</Link>
 
-        <Image 
-          width={320}
-          height={133}
-          alt="logo"
-          src="/assets/Logo_Text.svg"
-        />
+        <Link href="/" className="">
+          <Image 
+            width={320}
+            height={133}
+            alt="logo"
+            src="/assets/Logo_Text.svg"
+          />
+        </Link>
 
-        <div className="flex gap-[40px] lg:gap-[100px]">
-          <Link href="/#services">Services</Link>
-          <Link href="/contact">Contact us</Link>
-        </div>
+          <Link href="/#services" className="mx-4">Services</Link>
+          <Link href="/contact" className="mx-4">Contact</Link>
 
         <div className="flex">
-          <Link href="facebook.com">
-            <Image 
-              width={50}
-              height={50}
-              alt="facebook"
-              src="assets/Button_Facebook.svg"
-            />
+          <Link href="https://ie.linkedin.com/in/evareddypsychotherapy">
+            <div className="p-3 text-white bg-[#D4491D] rounded-full mx-1">
+              <Linkedin/>
+            </div>
           </Link>
 
           <Link href="https://www.instagram.com/reddypsychotherapy/">
-            <Image 
-              width={50}
-              height={50}
-              alt="instagram"
-              src="assets/Button_Instagram.svg"
-            />
+            <div className="p-3 text-white bg-[#D4491D] rounded-full mx-1">
+              <Instagram/>
+            </div>
           </Link>
         </div>
       </div>

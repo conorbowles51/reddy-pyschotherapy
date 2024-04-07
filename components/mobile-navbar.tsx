@@ -3,10 +3,12 @@
 import { use, useState } from 'react'
 import { Sheet, SheetContent, SheetTrigger } from './ui/sheet';
 import { Button } from './ui/button';
-import { Home, Info, Menu, Phone } from 'lucide-react';
+import { Home, Info, Instagram, Linkedin, Menu, Phone } from 'lucide-react';
 import Link, { LinkProps } from 'next/link';
 import { useRouter } from 'next/navigation';
 import Image from 'next/image';
+import { Separator } from './ui/separator';
+import PrivacyPolicy from './privacy-policy';
 
 const MobileNavbar = () => {
   const [open, setOpen] = useState(false);
@@ -22,29 +24,56 @@ const MobileNavbar = () => {
         </Button>
       </SheetTrigger>
       <SheetContent side="right">
-        <div className='flex justify-center mb-5'>
-          <Image 
-            src="/assets/Logo_Text.svg"
-            width={100}
-            height={100}
-            alt='logo'
-          />
-        </div>
-        <div className='flex flex-col gap-3'>
-          <MobileLink href="/" onOpenChange={setOpen} className="flex items-center">
-            <Home className='mr-2 h-4 w-4'/>
-            <span className='font-bold font-heading'>Home</span>
-          </MobileLink>
+        <div className='flex flex-col h-full justify-between'>
+          <div>
+            <div className='flex justify-center mb-5'>
+              <Image 
+                src="/assets/Logo_Text.svg"
+                width={100}
+                height={100}
+                alt='logo'
+              />
+            </div>
+            <div className='flex flex-col gap-3'>
+              <MobileLink href="/" onOpenChange={setOpen} className="flex items-center">
+                <Home className='mr-2 h-4 w-4'/>
+                <span className='font-bold font-heading'>Home</span>
+              </MobileLink>
 
-          <MobileLink href="/about" onOpenChange={setOpen} className="flex items-center">
-            <Info className='mr-2 h-4 w-4'/>
-            <span className='font-bold font-heading'>About</span>
-          </MobileLink>
+              <Separator />
 
-          <MobileLink href="/contact" onOpenChange={setOpen} className="flex items-center">
-            <Phone className='mr-2 h-4 w-4'/>
-            <span className='font-bold font-heading'>Contact</span>
-          </MobileLink>
+              <MobileLink href="/about" onOpenChange={setOpen} className="flex items-center">
+                <Info className='mr-2 h-4 w-4'/>
+                <span className='font-bold font-heading'>About</span>
+              </MobileLink>
+
+              <Separator />
+
+              <MobileLink href="/contact" onOpenChange={setOpen} className="flex items-center">
+                <Phone className='mr-2 h-4 w-4'/>
+                <span className='font-bold font-heading'>Contact</span>
+              </MobileLink>
+
+              <Separator className='mb-auto'/>  
+            </div>
+          </div>
+
+          <div className="flex justify-between">
+            <div className='flex'>
+              <Link href="https://ie.linkedin.com/in/evareddypsychotherapy">
+                <div className="p-3 text-white bg-[#D4491D] rounded-full mx-1">
+                  <Linkedin/>
+                </div>
+              </Link>
+              <Link href="https://www.instagram.com/reddypsychotherapy/">
+                <div className="p-3 text-white bg-[#D4491D] rounded-full mx-1">
+                  <Instagram/>
+                </div>
+              </Link>
+            </div>
+
+            <PrivacyPolicy className=''/>
+          </div>
         </div>
       </SheetContent>
     </Sheet>

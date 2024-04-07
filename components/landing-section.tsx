@@ -15,7 +15,7 @@ const LandingSection = () => {
         </div>
 
         <div>
-          <h1 className="font-heading font-semibold text-4xl sm:text-7xl text-[#2B3349] text-center">
+          <h1 className="font-heading font-semibold text-4xl sm:text-7xl text-[#2B3349] text-center lg:text-left">
             <span className="text-[#D4491D]">Limerick</span> based<br/>psychotherapy
           </h1>
 
