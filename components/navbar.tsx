@@ -24,7 +24,7 @@ const Navbar = () => {
             width={200}
             height={160}
             alt="logo"
-            src="/assets/Logo_fox.svg"
+            src="/assets/Logo_Fox.svg"
           />
         </Link>
 
@@ -37,7 +37,7 @@ const Navbar = () => {
           width={320}
           height={133}
           alt="logo"
-          src="/assets/Logo_text.svg"
+          src="/assets/Logo_Text.svg"
         />
 
         <div className="flex gap-[40px] lg:gap-[100px]">
