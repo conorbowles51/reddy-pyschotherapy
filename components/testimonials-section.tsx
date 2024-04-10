@@ -11,66 +11,19 @@ import {
 const TestimonialsSection = () => {
   const testimonials = [
     {
-      name: "Michael",
-      testimonial: `Impressed Beyond Words! XYZ Clinic goes
-                    above and beyond in patient care. The staff
-                    are attentive, knowledgeable, and genuinely
-                    caring. The clinic's modern facilities and
-                    attention to detail create an atmosphere of
-                    comfort and confidence. 10/10 recommend!`
+      name: "C -",
+      testimonial: `I have been working with Eva over the last year. During that time she has taught me a lot about myself and helped to underpin the reasons for my higher than normal anxiety levels. I am now learning methods to cope with these emotions`
     },
 
     {
-      name: "Mary",
-      testimonial: `Exceptional Care Every Time! XYZ Clinic has
-                    become my go-to for all my healthcare needs. The
-                    staff are not only professional but also
-                    compassionate, making each visit a positive
-                    experience. The clinic's commitment to excellence
-                    and patient satisfaction is unmatched. Thank you,
-                    XYZ Clinic, for consistently exceeding expectations!`
+      name: "S -",
+      testimonial: `Eva is kind, gentle and approachable. I found it very easy to talk to her. She helped me see more clearly many things about my relationships and I always left the therapy sessions feeling lighter`
     },
 
     {
-      name: "James",
-      testimonial: `Impressed Beyond Words! XYZ Clinic goes
-                    above and beyond in patient care. The staff
-                    are attentive, knowledgeable, and genuinely
-                    caring. The clinic's modern facilities and
-                    attention to detail create an atmosphere of
-                    comfort and confidence. 10/10 recommend!`
+      name: "D -",
+      testimonial: `Eva was incredibly positive and supportive throughout the treatment. She created a safe and non-judgmental environment, allowing me to open up and explore my thoughts and emotions. The sessions were well-structured and tailored to my needs, helping me gain valuable insights and coping strategies.`
     },
-
-    {
-      name: "Michael",
-      testimonial: `Impressed Beyond Words! XYZ Clinic goes
-                    above and beyond in patient care. The staff
-                    are attentive, knowledgeable, and genuinely
-                    caring. The clinic's modern facilities and
-                    attention to detail create an atmosphere of
-                    comfort and confidence. 10/10 recommend!`
-    },
-
-    {
-      name: "Mary",
-      testimonial: `Exceptional Care Every Time! XYZ Clinic has
-                    become my go-to for all my healthcare needs. The
-                    staff are not only professional but also
-                    compassionate, making each visit a positive
-                    experience. The clinic's commitment to excellence
-                    and patient satisfaction is unmatched. Thank you,
-                    XYZ Clinic, for consistently exceeding expectations!`
-    },
-
-    {
-      name: "James",
-      testimonial: `Impressed Beyond Words! XYZ Clinic goes
-                    above and beyond in patient care. The staff
-                    are attentive, knowledgeable, and genuinely
-                    caring. The clinic's modern facilities and
-                    attention to detail create an atmosphere of
-                    comfort and confidence. 10/10 recommend!`
-    }
   ];
 
   return ( 

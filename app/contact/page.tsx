@@ -44,7 +44,7 @@ export default function ContactPage() {
             <label htmlFor="message">Message</label>
             <textarea required maxLength={2000} id='message' name='message' className='h-52  border border-black/30 p-4'/>
 
-            <button type='submit' className='bg-[#D4491D] text-white w-fit p-4'>Send message</button>
+            <button type='submit' className='mt-3 rounded-sm bg-[#D4491D] text-white w-fit p-4'>Send message</button>
           </form>
         </div>
       </section>
@@ -58,7 +58,7 @@ export default function ContactPage() {
 
         <div className='flex flex-col md:flex-row gap-3 justify-between'>
           <div className='md:w-[47%]'>
-            <p className='font-heading text-[#2B3349] text-2xl'>
+            <p className='font-heading text-[#2B3349] text-[1.25rem]'>
               Reddy Psychotherapy can provide in-person therapy at Limerick Mental Health Association (3 Sexton Street, Limerick, V94 Y521) on Tuesday and Wednesday.
               <br/><br/>
               Remote therapy can be facilitated through online video sessions or through telephone audio sessions. 

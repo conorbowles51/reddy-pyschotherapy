@@ -7,7 +7,7 @@ import { ScrollArea, ScrollBar } from "@/components/ui/scroll-area"
 
 export default function About() {
     return (
-      <main className="mt-[50px] md:mt-[100px] relative">
+      <main className="mt-[50px] relative">
         <div className="mt-3 py-4 px-[50px] md:px-[100px] bg-[#f7b6aa] w-fit rounded-r-3xl">
           <h1 className="text-3xl text-[#D4491D] font-heading tracking-[10px]">
             About Eva
@@ -108,7 +108,7 @@ export default function About() {
             <h3 className="mt-[75px] text-4xl font-heading font-semibold text-[#D4491D]">Reach out...</h3>
             <p  className="mt-[10px] ml-[40px] text-2xl font-heading text-[#2B3349]">Send me an email and we can chat<br />about how I can help you</p>
 
-            <Link href="/contact" className="flex justify-center items-center gap-3 mt-5 ml-[100px] p-3 bg-[#D4491D] border-[#D4491D] w-[200px] text-center text-white font-heading text-2xl hover:text-[#D4491D] hover:cursor-pointer border hover:bg-white transition">
+            <Link href="/contact" className="flex rounded-sm justify-center items-center gap-3 mt-5 ml-[100px] py-1 px-3 bg-[#D4491D] border-[#D4491D] w-[200px] text-center text-white font-heading text-2xl hover:text-[#D4491D] hover:cursor-pointer border hover:bg-white transition">
               Contact <ArrowRight />
             </Link>
           </div>
