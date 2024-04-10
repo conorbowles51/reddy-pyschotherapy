@@ -3,11 +3,6 @@ import Image from "next/image";
 const ServicesSection = () => {
   const services = [
     {
-      name: "Telephone Therapy",
-      desc: "Remote talk therapy sessions through 50-minute audio calls.",
-      path: "/assets/Telephone_Therapy.png"
-    },
-    {
       name: "Counselling",
       desc: "A set amount of regular therapeutic sessions spaced over a short-term period of time.",
       path: "/assets/Councelling.png"
@@ -18,20 +13,26 @@ const ServicesSection = () => {
       path: "/assets/InPerson_Therapy.png"
     },
     {
-      name: "Online Therapy",
-      desc: "Remote talk therapy sessions through 50-minute online video calls.",
-      path: "/assets/Online_Therapy.png"
-    },
-    {
       name: "Pyschotherapy",
       desc: "An unrestricted amount of therapeutic sessions spaced over a long-term period of time.",
       path: "/assets/Pyschotherapy.png"
+    },
+    {
+      name: "Telephone Therapy",
+      desc: "Remote talk therapy sessions through 50-minute audio calls.",
+      path: "/assets/Telephone_Therapy.png"
+    },
+    
+    {
+      name: "Online Therapy",
+      desc: "Remote talk therapy sessions through 50-minute online video calls.",
+      path: "/assets/Online_Therapy.png"
     },
   ]
 
   return ( 
     <section className="mt-[100px] xl:mt-[240px] flex flex-col items-center justify-center relative scroll-my-60" id="services">
-      <h2 className="text-[#2B3349] text-6xl font-heading">Services</h2>
+      <h2 className="text-[#2B3349] text-6xl font-bold font-heading">Services</h2>
 
       <div className="absolute -rotate-90 right-[-700px]">
         <Image 

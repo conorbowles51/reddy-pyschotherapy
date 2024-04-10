@@ -45,8 +45,8 @@ const BlogSection = () => {
     <section className="mt-[100px] xl:mt-[200px] mx-[50px] scroll-my-24" id="advice">
       <div className="flex flex-col xl:flex-row items-center justify-between font-heading text-[#2B3349]">
         <div className="">
-          <h2 className="text-4xl md:text-5xl text-center xl:text-left">
-            Don&apos;t know <span className="text-[#D4491D]">where</span> to<br /> start?
+          <h2 className="text-4xl font-bold md:text-5xl mr-3 text-center xl:text-left">
+            Don&apos;t know <span className="text-[#D4491D]">where</span> to start?
           </h2>
           <p className="mt-10 md:text-2xl font-thin text-center xl:text-left mb-[50px] xl:mb-0">
             We know that the complex<br />
@@ -59,12 +59,11 @@ const BlogSection = () => {
           </p>
         </div>
 
-        <div>
+        <div className="ml-5">
           <h3 className="text-4xl text-[#2B3349] font-heading font-semibold flex items-center">
-            <BookOpen className="mr-2" />
-            Visit my blog...
+            Visit my blog
           </h3>
-          <Link href="/blog" className="ml-5 flex justify-center items-center gap-3 mt-5 p-3 bg-[#D4491D] border-[#D4491D] w-[200px] text-center text-white font-heading text-2xl hover:text-[#D4491D] hover:cursor-pointer border hover:bg-white transition">
+          <Link href="/blog" className="flex justify-center items-center gap-3 mt-5 px-3 py-1 rounded-sm bg-[#D4491D] border-[#D4491D] w-[200px] text-center text-white font-heading text-2xl hover:text-[#D4491D] hover:cursor-pointer border hover:bg-white transition">
             Blog <ArrowRight />
           </Link>
         </div>
