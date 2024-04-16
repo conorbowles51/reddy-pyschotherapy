@@ -3,7 +3,7 @@
 import { use, useState } from 'react'
 import { Sheet, SheetContent, SheetTrigger } from './ui/sheet';
 import { Button } from './ui/button';
-import { Home, Info, Instagram, Linkedin, Menu, Phone } from 'lucide-react';
+import { Home, Info, Instagram, Linkedin, Menu, Phone, BookIcon } from 'lucide-react';
 import Link, { LinkProps } from 'next/link';
 import { useRouter } from 'next/navigation';
 import Image from 'next/image';
@@ -19,7 +19,7 @@ const MobileNavbar = () => {
       onOpenChange={setOpen}
     > 
       <SheetTrigger asChild>
-        <Button variant="outline" className="w-10 px-0 md:hidden">
+        <Button variant="outline" className="w-10 px-0 md:hidden mb-3">
           <Menu className='h-5 w-5' />
         </Button>
       </SheetTrigger>
@@ -45,6 +45,13 @@ const MobileNavbar = () => {
               <MobileLink href="/about" onOpenChange={setOpen} className="flex items-center">
                 <Info className='mr-2 h-4 w-4'/>
                 <span className='font-bold font-heading'>About</span>
+              </MobileLink>
+
+              <Separator />
+
+              <MobileLink href="/blog" onOpenChange={setOpen} className="flex items-center">
+                <BookIcon className='mr-2 h-4 w-4'/>
+                <span className='font-bold font-heading'>Blog</span>
               </MobileLink>
 
               <Separator />
