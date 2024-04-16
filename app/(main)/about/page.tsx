@@ -8,6 +8,16 @@ import { ScrollArea, ScrollBar } from "@/components/ui/scroll-area"
 export default function About() {
     return (
       <main className="mt-[50px] relative">
+        <div className="h-full z-[-100] pointer-events-none hidden xl:block">
+        <Image 
+          src="/assets/Trail.svg"
+          alt="background decoration"
+          className="z-[-1000]"
+          layout="fill"
+          objectFit="cover"
+        />
+      </div>
+
         <div className="mt-3 py-4 px-[50px] md:px-[100px] bg-[#f7b6aa] w-fit rounded-r-3xl">
           <h1 className="text-3xl text-[#D4491D] font-heading tracking-[10px]">
             About Eva
